@@ -1,0 +1,39 @@
+{
+    "criteria": {
+      "example": {
+        "trigger": "minecraft:started_riding",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "vehicle": {
+                  "type": "minecraft:horse",
+                  "equipment": {
+                    "chest": {
+                        "items": [
+                            "leather_horse_armor",
+                            "iron_horse_armor",
+                            "golden_horse_armor",
+                            "diamond_horse_armor"
+                        ],
+                        "enchantments": [
+                            {
+                                "enchantment": "loyalty",
+                                "levels": 3
+                            }
+                        ]
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+        "function": "horses_stay_put:horses/stay_put"
+    }
+  }

@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "example": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+            "entity": {
+                "type": "minecraft:horse"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "horses_stay_put:horses/get_a_move_on"
+    }
+}
