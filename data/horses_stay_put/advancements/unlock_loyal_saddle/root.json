@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "recipe_unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "horses_stay_put:loyal_saddle"
+            }
+        }
+    },
+    "rewards": {
+        "function": "horses_stay_put:items/crafted_loyal_saddle"
+    }
+}

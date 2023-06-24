@@ -1,3 +1,9 @@
-say stay put function trigger
-data merge entity @e[limit=1] {NoAI:1}
-advancement revoke @a everything
+advancement revoke @s only horses_stay_put:horses_stay_put/root
+
+say new! stay put function trigger 
+data merge entity @e[type=horse,distance=..10,sort=nearest,limit=1] {NoAI:1b}
+
+
+# confirmed works
+#data merge entity @e[type=horse,distance=..10,sort=nearest,limit=1] {NoAI:1b}
+#"nbt": "{SaddleItem:{id:\"minecraft:saddle\", tag:{Enchantments:[{id:\"minecraft:loyalty\", lvl:3s}]}}}"
