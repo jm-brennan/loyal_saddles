@@ -1,4 +1,4 @@
-advancement revoke @s only horses_stay_put:horses_stay_put/root
+advancement revoke @s only horses:stay/root
 
 say new! stay put function trigger 
 data merge entity @e[type=horse,distance=..10,sort=nearest,limit=1] {NoAI:1b}

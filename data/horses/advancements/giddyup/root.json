@@ -11,6 +11,6 @@
         }
     },
     "rewards": {
-        "function": "horses_stay_put:horses/get_a_move_on"
+        "function": "horses:giddyup_schedule_callback"
     }
 }

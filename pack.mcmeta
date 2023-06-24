@@ -1,6 +1,6 @@
 {
     "pack": {
         "pack_format": 10,
-        "description": "Horses don't wander anymore"
+        "description": "Entities equipped with a loyal saddle don't wander"
     }
 }

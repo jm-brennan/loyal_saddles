@@ -19,6 +19,6 @@
     }
   },
   "rewards": {
-      "function": "horses_stay_put:horses/stay_put"
+      "function": "horses:stay_put"
   }
 }

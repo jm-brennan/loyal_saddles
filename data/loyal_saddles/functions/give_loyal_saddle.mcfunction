@@ -1,6 +1,6 @@
-recipe take @s horses_stay_put:loyal_saddle
+recipe take @s loyal_saddles:loyal_saddle
 
-advancement revoke @s only horses_stay_put:unlock_loyal_saddle/root
+advancement revoke @s only loyal_saddles:unlock_loyal_saddle/root
 
 clear @s minecraft:knowledge_book 1
 
