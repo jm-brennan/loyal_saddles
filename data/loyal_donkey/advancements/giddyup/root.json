@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "example": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+            "entity": {
+                "type": "minecraft:donkey",
+                "nbt": "{NoAI:1b}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "loyal_donkey:giddyup_schedule_callback"
+    }
+}

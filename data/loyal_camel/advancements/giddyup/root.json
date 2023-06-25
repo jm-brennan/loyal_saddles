@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "example": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+            "entity": {
+                "type": "minecraft:camel",
+                "nbt": "{NoAI:1b}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "loyal_camel:giddyup_schedule_callback"
+    }
+}

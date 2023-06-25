@@ -4,13 +4,13 @@
         "trigger": "minecraft:player_hurt_entity",
         "conditions": {
             "entity": {
-                "type": "minecraft:horse",
+                "type": "minecraft:pig",
                 "nbt": "{NoAI:1b}"
                 }
             }
         }
     },
     "rewards": {
-        "function": "horses:giddyup_schedule_callback"
+        "function": "loyal_pig:giddyup_schedule_callback"
     }
 }

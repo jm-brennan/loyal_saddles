@@ -9,7 +9,7 @@
             "entity": "this",
             "predicate": {
               "vehicle": {
-                "type": "horse",
+                "type": "minecraft:camel",
                 "nbt": "{SaddleItem:{id:\"minecraft:saddle\", tag:{Enchantments:[{id:\"minecraft:loyalty\"}]}}}"
               }
             }
@@ -19,6 +19,6 @@
     }
   },
   "rewards": {
-      "function": "horses:stay_put"
+      "function": "loyal_camel:stay_put"
   }
 }

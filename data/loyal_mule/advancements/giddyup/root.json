@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "example": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+            "entity": {
+                "type": "minecraft:mule",
+                "nbt": "{NoAI:1b}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "loyal_mule:giddyup_schedule_callback"
+    }
+}

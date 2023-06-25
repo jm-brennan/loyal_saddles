@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "example": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+            "entity": {
+                "type": "minecraft:horse",
+                "nbt": "{NoAI:1b}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "loyal_horse:giddyup_schedule_callback"
+    }
+}

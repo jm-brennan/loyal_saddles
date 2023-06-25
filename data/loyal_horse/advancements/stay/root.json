@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "example": {
+      "trigger": "started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "type": "horse",
+                "nbt": "{SaddleItem:{id:\"minecraft:saddle\", tag:{Enchantments:[{id:\"minecraft:loyalty\"}]}}}"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+      "function": "loyal_horse:stay_put"
+  }
+}
