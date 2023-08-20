@@ -1,5 +1,5 @@
 # loyal_saddles
-A Minecraft datapack which prevents rideable entities from wandering while they are wearing a loyalty-enchanted saddle.
+## A Minecraft datapack which prevents rideable entities from wandering while they are wearing a saddle enchanted with loaylty.
 
 Using a horse (or another rideable entity) as a regular means of transport in Minecraft can be quite a hassle with the need to keep the horse from wandering while you are not riding it. Needing to carry a lead & fence, digging holes, or making stables keeps horses from being easy and hassle-free to use. This datapack seeks to remedy that.
 
