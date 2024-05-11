@@ -11,8 +11,8 @@ To obtain a saddle enchanted with loyalty (which is not normally possible in sur
 
 ### Drawbacks
 - An entity that is currently being "loyal" will do nothing to try to save themselves in the face of danger (drowning, ect.). Hitting them will re-enable their AI, so the player will want to keep in mind where they are leaving their horse/entity when dismounting
-- A loyalty saddle will not go into effect until the player has mounted the entity with the saddle on. So to enable loyalty for the first time for an entity, the steps would look like: mount entity -> equip saddle through inventory interface -> dismount -> remount. Every mount thereafter will also re-loyalify the entity
 - A loyalty saddle cannot be placed on a horse by right-clicking the horse with the saddle when not riding the entity, this will convert the saddle to a regular saddle. The entity must be being ridden, and the saddle placed into the saddle slot in the entity's inventory for the saddle to work
+- A loyalty saddle will not go into effect until the player has mounted the entity with the saddle on. So to enable loyalty for the first time for an entity, the steps would look like: mount entity -> equip saddle through inventory interface -> dismount -> remount. Every mount thereafter will also re-loyalify the entity
 - Because loyalty saddles have to be equipped through the entities inventory interface, a loyalty saddle cannot be applied to a strider by a player normally, it would have to be done through commands.
 
 ### Demo
